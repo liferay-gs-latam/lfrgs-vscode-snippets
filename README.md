@@ -1,5 +1,6 @@
-# lfrgs-vscode-snippets
-VS Code Snippets to boost our coding productivity
+# GS VS Code Snippets
+
+VS Code Snippets to boost our coding productivity :zap:
 
 ![alt text](https://github.com/jordanamorais/lfrgs-vscode-snippets/blob/freemarker-snippets/snippets/img/vscode-snippets.gif "Vs Code Snippets")
 
