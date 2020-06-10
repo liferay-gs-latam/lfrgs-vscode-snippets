@@ -1,0 +1,63 @@
+{
+	"View URL": {
+		"prefix": "view-url",
+		"body": [
+			"<#assign viewURL = assetPublisherHelper.getAssetViewURL(renderRequest, renderResponse, curEntry) />",
+		],
+		"description": "Asset View URL"
+	},
+	"Asset Download URL": {
+		"prefix": "download-url",
+		"body": [
+			"<#assign renderer = curEntry.getAssetRenderer() />",
+			"<#assign url = renderer.getURLDownload(themeDisplay) />"
+		],
+		"description": "Asset Download URL"
+	},
+	"Asset View in context URL": {
+		"prefix": "view-in-context-url",
+		"body": [
+			"<#assign assetRenderer = curEntry.getAssetRenderer() />",
+			"<#assign viewURL = assetPublisherHelper.getAssetViewURL(renderRequest, renderResponse, curEntry) />",
+			"",
+			"<#if assetLinkBehavior != 'showFullContent'>",
+			"\t<#assign viewURL = assetRenderer.getURLViewInContext(renderRequest, renderResponse, viewURL) />",
+			"</#if>"
+		],
+		"description": "Asset View in context URL"
+	},
+	"Get article structure field": {
+		"prefix": "structure-field",
+		"body": [
+			"<#assign renderer = curEntry.getAssetRenderer()>",
+			"<#assign journalArticle = renderer.getArticle()>",
+			"<#assign document = saxReaderUtil.read(journalArticle.getContent())>",
+			"<#assign rootElement = document.getRootElement()>",
+			"",
+			"<#assign xPathSelector = saxReaderUtil.createXPath('dynamic-element[@name='${1}']')>",
+			"<#assign ${2} = xPathSelector.selectSingleNode(rootElement).getStringValue()>",
+		],
+		"description": "Get article structure field"
+	},
+	"Truncate text": {
+		"prefix": "truncate-text",
+		"body": [
+			"<#--  Truncate Text  -->",
+			"<#macro truncate_text text limit>",
+			"\t<#assign truncatedText = '' />",
+			"\t<#if text?length gt limit>",
+			"\t\t<#assign truncatedText = text?substring(0,limit)/>",
+			"\t\t<#assign truncatedText += '...'/>",
+			"\t\t\\${truncatedText}",
+			"\t<#else>",
+			"\t\t\\${text}",
+			"\t</#if>",
+			"</#macro>",
+			"",
+			"<#--  How to use  -->",
+			"<#assign title = curEntry.getTitle(locale)/>",
+			"<@truncate_text text=title limit=100 />"
+		],
+		"description": "Macro | Truncate text"
+	}
+}
