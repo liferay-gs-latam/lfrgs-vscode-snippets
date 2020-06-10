@@ -1,4 +1,4 @@
-# GS VS Code Snippets
+# GS VSCode Snippets
 
 VS Code Snippets to boost our coding productivity :zap:
 
