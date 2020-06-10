@@ -1,7 +1,7 @@
 # lfrgs-vscode-snippets
 VS Code Snippets to boost our coding productivity
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/snippets/img/vscode-snippets.gif "Vs Code Snippets")
+![alt text](https://github.com/jordanamorais/lfrgs-vscode-snippets/blob/freemarker-snippets/snippets/img/vscode-snippets.gif "Vs Code Snippets")
 
 ## How to install the snippets
 
