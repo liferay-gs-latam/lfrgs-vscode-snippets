@@ -59,5 +59,13 @@
 			"<@truncate_text text=title limit=100 />"
 		],
 		"description": "Macro | Truncate text"
+	},
+	"Get Page Title": {
+		"prefix": "get-page-title",
+		"body": [
+			"<#--  Get Page Title  -->",
+			"<#assign pageTitle = themeDisplay.getLayout().getName(locale) />"
+		],
+		"description": "Macro | Truncate text"
 	}
 }
