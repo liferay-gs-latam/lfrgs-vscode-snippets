@@ -24,12 +24,13 @@ According to the chosen file extension, just copy and paste our snippet code to 
 
 ### Snippet Commands
 
-|       Command       |   Type   |                 Description                 |
-| :-----------------: | :------: | :-----------------------------------------: |
-|      view-url       | ADT Util |             Get asset View URL              |
-|    download-url     | ADT Util |           Get asset download URL            |
-| view-in-context-url | ADT Util |        Get Asset View in context URL        |
-|   structure-field   | ADT Util | Get field from Liferay structure with XPath |
-|    truncate-text    |  Macro   |                Truncate Text                |
+|       Command       | Type  |                 Description                 |
+| :-----------------: | :---: | :-----------------------------------------: |
+|      view-url       | Util  |             Get asset View URL              |
+|    download-url     | Util  |           Get asset download URL            |
+| view-in-context-url | Util  |        Get Asset View in context URL        |
+|   structure-field   | Util  | Get field from Liferay structure with XPath |
+|    truncate-text    | Macro |                Truncate Text                |
+|   get-page-title    | Util  |           Get current Page Title            |
 
 
