@@ -13,6 +13,7 @@ According to the chosen file extension, just copy and paste our snippet code to 
 ## Available Snippets
 
 * [Freemarker](#freemarker)
+* [SCSS](#scss)
 
 ----
 
@@ -24,13 +25,31 @@ According to the chosen file extension, just copy and paste our snippet code to 
 
 ### Snippet Commands
 
+## Utilities
+
 |       Command       | Type  |                 Description                 |
 | :-----------------: | :---: | :-----------------------------------------: |
 |      view-url       | Util  |             Get asset View URL              |
 |    download-url     | Util  |           Get asset download URL            |
 | view-in-context-url | Util  |        Get Asset View in context URL        |
 |   structure-field   | Util  | Get field from Liferay structure with XPath |
-|    truncate-text    | Macro |                Truncate Text                |
 |   get-page-title    | Util  |           Get current Page Title            |
+
+## Macros
+
+|       Command       | Type  |                 Description                 |
+|    truncate-text    | Macro |                Truncate Text                |
+
+## SCSS
+
+### Snippet file
+
+* [SCSS Snippet](/snippets/scss.json) 
+
+### Snippet Commands
+
+| Command | Type  |                Description                |
+| :-----: | :---: | :---------------------------------------: |
+| prefix  | Util  | Add project prefix var SCSS interpolation |
 
 
