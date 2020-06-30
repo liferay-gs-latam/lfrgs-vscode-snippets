@@ -1,0 +1,9 @@
+{
+	"SCSS Project Prefix": {
+		"prefix": "prefix",
+		"body": [
+			".#{\\$prefix}-$1",
+		],
+		"description": "Add SCSS project prefix"
+	}
+}
