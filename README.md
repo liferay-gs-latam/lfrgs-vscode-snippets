@@ -37,8 +37,9 @@ According to the chosen file extension, just copy and paste our snippet code to 
 
 ## Macros
 
-|       Command       | Type  |                 Description                 |
-|    truncate-text    | Macro |                Truncate Text                |
+|    Command    | Type  |  Description  |
+| :-----------: | :---: | :-----------: |
+| truncate-text | Macro | Truncate Text |
 
 ## SCSS
 
