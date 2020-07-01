@@ -27,19 +27,25 @@ According to the chosen file extension, just copy and paste our snippet code to 
 
 ## Utilities
 
-|       Command       | Type  |                 Description                 |
-| :-----------------: | :---: | :-----------------------------------------: |
-|      view-url       | Util  |             Get asset View URL              |
-|    download-url     | Util  |           Get asset download URL            |
-| view-in-context-url | Util  |        Get Asset View in context URL        |
-|   structure-field   | Util  | Get field from Liferay structure with XPath |
-|   get-page-title    | Util  |           Get current Page Title            |
+|       Command       |                 Description                 |
+| :-----------------: | :-----------------------------------------: |
+|      view-url       |             Get asset View URL              |
+|    download-url     |           Get asset download URL            |
+| view-in-context-url |        Get Asset View in context URL        |
+|   structure-field   | Get field from Liferay structure with XPath |
+|   get-page-title    |           Get current Page Title            |
 
 ## Macros
 
-|    Command    | Type  |  Description  |
-| :-----------: | :---: | :-----------: |
-| truncate-text | Macro | Truncate Text |
+|    Command    |  Description  |
+| :-----------: | :-----------: |
+| truncate-text | Truncate Text |
+
+## Taglibs
+
+|    Command     |          Description           |
+| :------------: | :----------------------------: |
+| journal-taglib | Embed a journal article widget |
 
 ## SCSS
 
@@ -49,8 +55,10 @@ According to the chosen file extension, just copy and paste our snippet code to 
 
 ### Snippet Commands
 
-| Command | Type  |                Description                |
-| :-----: | :---: | :---------------------------------------: |
-| prefix  | Util  | Add project prefix var SCSS interpolation |
+## Utilities
+
+| Command |                Description                |
+| :-----: | :---------------------------------------: |
+| prefix  | Add project prefix var SCSS interpolation |
 
 
