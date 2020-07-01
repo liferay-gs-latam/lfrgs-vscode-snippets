@@ -19,9 +19,7 @@ According to the chosen file extension, just copy and paste our snippet code to 
 
 ## Freemarker
 
-### Snippet file
-
-* [FTL Snippet](/snippets/ftl.json) 
+> Snippet file: [FTL Snippet](/snippets/ftl.json) 
 
 ### Snippet Commands
 
@@ -49,9 +47,7 @@ According to the chosen file extension, just copy and paste our snippet code to 
 
 ## SCSS
 
-### Snippet file
-
-* [SCSS Snippet](/snippets/scss.json) 
+> Snippet file [SCSS Snippet](/snippets/scss.json) 
 
 ### Snippet Commands
 
