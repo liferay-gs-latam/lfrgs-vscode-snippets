@@ -23,7 +23,7 @@ According to the chosen file extension, just copy and paste our snippet code to 
 
 ### Snippet Commands
 
-## Utilities
+#### Utilities
 
 |       Command       |                 Description                 |
 | :-----------------: | :-----------------------------------------: |
@@ -33,13 +33,13 @@ According to the chosen file extension, just copy and paste our snippet code to 
 |   structure-field   | Get field from Liferay structure with XPath |
 |   get-page-title    |           Get current Page Title            |
 
-## Macros
+#### Macros
 
 |    Command    |  Description  |
 | :-----------: | :-----------: |
 | truncate-text | Truncate Text |
 
-## Taglibs
+#### Taglibs
 
 |    Command     |          Description           |
 | :------------: | :----------------------------: |
@@ -51,7 +51,7 @@ According to the chosen file extension, just copy and paste our snippet code to 
 
 ### Snippet Commands
 
-## Utilities
+#### Utilities
 
 | Command |                Description                |
 | :-----: | :---------------------------------------: |
