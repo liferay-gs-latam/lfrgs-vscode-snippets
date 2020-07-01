@@ -67,5 +67,15 @@
 			"<#assign pageTitle = themeDisplay.getLayout().getName(locale) />"
 		],
 		"description": "Macro | Truncate text"
+	},
+	"Add Journal Article taglib": {
+		"prefix": "journal-taglib",
+		"body": [
+			"<@liferay_journal[\"journal-article\"]",
+			"\tarticleId=\"${1}\" ddmTemplateKey=\"${2}\"",
+			"\tgroupId=\"${3}\" showTitle=false />"
+
+		],
+		"description": "Taglib | Journal Article"
 	}
 }
