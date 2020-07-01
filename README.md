@@ -2,7 +2,7 @@
 
 VS Code Snippets to boost our coding productivity :zap:
 
-![alt text](https://github.com/jordanamorais/lfrgs-vscode-snippets/blob/freemarker-snippets/img/vscode-snippets.gif "Vs Code Snippets")
+![alt text](https://github.com/jordanamorais/lfrgs-vscode-snippets/blob/img/vscode-snippets.gif "Vs Code Snippets")
 
 ## How to install the snippets
 
