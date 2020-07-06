@@ -32,6 +32,7 @@ Just clone this repo, then run:
 | view-in-context-url |        Get Asset View in context URL        |
 |   structure-field   | Get field from Liferay structure with XPath |
 |   get-page-title    |           Get current Page Title            |
+|    get-language     |       Get languageUtil, adding a key        |
 
 #### Macros
 
