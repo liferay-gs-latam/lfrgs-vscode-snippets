@@ -93,6 +93,14 @@
 			"\t<img src=\"${urlImage}\" class=\"d-none\" />",
 			"</span>"	
 		],
-		"description": "Util | Image as background"
+		"description": "Util | Markup sample for image as background"
+	},
+	"Get article structure nested field": {
+		"prefix": "nested-structure-field",
+		"body": [
+			"xPathSelectorNestedFieldNode = saxReaderUtil.createXPath(\"dynamic-element[@name='nestedFieldNodeName']\")",
+			"nestedNodeFieldValue = xPathSelectorNestedFieldNode.selectSingleNode(xPathSelectorFatherNode.selectSingleNode(rootElement)).getStringValue()?trim"
+		],
+		"description": "Util | Get nested field from structure"
 	}
 }
