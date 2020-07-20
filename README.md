@@ -25,14 +25,16 @@ Just clone this repo, then run:
 
 #### Utilities
 
-|       Command       |                 Description                 |
-| :-----------------: | :-----------------------------------------: |
-|      view-url       |             Get asset View URL              |
-|    download-url     |           Get asset download URL            |
-| view-in-context-url |        Get Asset View in context URL        |
-|   structure-field   | Get field from Liferay structure with XPath |
-|   get-page-title    |           Get current Page Title            |
-|    get-language     |       Get languageUtil, adding a key        |
+|        Command         |                 Description                 |
+| :--------------------: | :-----------------------------------------: |
+|        view-url        |             Get asset View URL              |
+|      download-url      |           Get asset download URL            |
+|  view-in-context-url   |        Get Asset View in context URL        |
+|    structure-field     | Get field from Liferay structure with XPath |
+|     get-page-title     |           Get current Page Title            |
+|      get-language      |       Get languageUtil, adding a key        |
+| nested-structure-field |       Get nested field from structure       |
+|  image-as-background   |    Markup sample for image as background    |
 
 #### Macros
 
