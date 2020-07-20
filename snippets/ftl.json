@@ -2,7 +2,7 @@
 	"View URL": {
 		"prefix": "view-url",
 		"body": [
-			"<#assign viewURL = assetPublisherHelper.getAssetViewURL(renderRequest, renderResponse, curEntry) />",
+			"<#assign viewURL = assetPublisherHelper.getAssetViewURL(renderRequest, renderResponse, curEntry) />"
 		],
 		"description": "Asset View URL"
 	},
@@ -35,7 +35,7 @@
 			"<#assign rootElement = document.getRootElement()>",
 			"",
 			"<#assign xPathSelector = saxReaderUtil.createXPath('dynamic-element[@name='${1}']')>",
-			"<#assign ${2} = xPathSelector.selectSingleNode(rootElement).getStringValue()>",
+			"<#assign ${2} = xPathSelector.selectSingleNode(rootElement).getStringValue()>"
 		],
 		"description": "Get article structure field"
 	},
@@ -102,5 +102,13 @@
 			"nestedNodeFieldValue = xPathSelectorNestedFieldNode.selectSingleNode(xPathSelectorFatherNode.selectSingleNode(rootElement)).getStringValue()?trim"
 		],
 		"description": "Util | Get nested field from structure"
+	},
+	"Get asset entry publish date": {
+		"prefix": "entry-publish-date",
+		"body": [
+			"<#assign renderer = curEntry.getAssetRenderer() />",
+			"<#assign entryPublishDate = renderer.getDisplayDate()?datetime?string(\"dd/MM/yyyy\") />"
+		],
+		"description": "Util | Get asset entry publish date"
 	}
 }
