@@ -85,5 +85,14 @@
 
 		],
 		"description": "Util | Get language"
+	},
+	"Image as Background": {
+		"prefix": "image-as-background",
+		"body": [
+			"<span class=\"image-as-bg h-100\" style=\"background-image: url('${urlImage}');\">",
+			"\t<img src=\"${urlImage}\" class=\"d-none\" />",
+			"</span>"	
+		],
+		"description": "Util | Image as background"
 	}
 }
