@@ -110,5 +110,22 @@
 			"<#assign entryPublishDate = renderer.getDisplayDate()?datetime?string(\"dd/MM/yyyy\") />"
 		],
 		"description": "Util | Get asset entry publish date"
+	},
+	"Check if array is empty": {
+		"prefix": "check-empty-array",
+		"body": [
+			"<#function containsNonEmpty ls>",
+			"\t<#list ls as i>",
+			"\t\t<#if i.getData() != '' && i.getData()??>",
+			"\t\t\t<#return true>",
+			"\t\t</#if>",
+			"\t</#list>",
+			"\t<#return false>",
+			"</#function>",
+			"",
+			"<#--  Usage  -->",
+			"<#if containsNonEmpty(arrayList)></#if>"
+		],
+		"description": "Util | Get asset entry publish date"
 	}
 }

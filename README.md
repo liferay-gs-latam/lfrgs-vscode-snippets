@@ -37,11 +37,12 @@ Just clone this repo, then run:
 | nested-structure-field |   Get nested field from structure on ADTs   |
 |  image-as-background   |    Markup sample for image as background    |
 
-#### Macros
+#### Macros and Functions
 
-|    Command    |  Description  |
-| :-----------: | :-----------: |
-| truncate-text | Truncate Text |
+|      Command      |       Description       |
+| :---------------: | :---------------------: |
+|   truncate-text   |      Truncate Text      |
+| check-empty-array | Check if array is empty |
 
 #### Taglibs
 
